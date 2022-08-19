@@ -61,8 +61,8 @@ public class MeshData {
         mesh.triangles = triangles;
         mesh.uv = uvs;
 
-        Debug.Log("vertices: " + vertices.Length);
-        Debug.Log("triangles: " + triangles.Length);
+        // Debug.Log("vertices: " + vertices.Length);
+        // Debug.Log("triangles: " + triangles.Length);
         mesh.RecalculateNormals();  // lighting
         return mesh;
     }
